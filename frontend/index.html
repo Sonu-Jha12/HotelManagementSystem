@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Harbor Hotel Manager</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { theme: { extend: {
+      fontFamily: { head: ['"Bricolage Grotesque"', 'sans-serif'], sans: ['"Instrument Sans"', 'sans-serif'] },
+      colors: { ink: '#10302F', sea: '#0E7C7B', mist: '#F1F5F4', sand: '#E9B44C' } } } };
+  </script>
+  <style>
+    .inp { width:100%; border:1px solid #cbd5d3; border-radius:.5rem; padding:.55rem .75rem; background:#fff; }
+    .inp:focus { outline:2px solid #0E7C7B; outline-offset:1px; }
+    .btn { background:#0E7C7B; color:#fff; padding:.55rem 1rem; border-radius:.5rem; font-weight:600; }
+    .btn:hover { background:#0b6564; }
+    .btn-o { border:1px solid #cbd5d3; padding:.3rem .65rem; border-radius:.4rem; font-size:.85rem; background:#fff; white-space:nowrap; }
+    .btn-o:hover { background:#F1F5F4; }
+  </style>
+</head>
+<body class="font-sans bg-mist text-slate-800">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
