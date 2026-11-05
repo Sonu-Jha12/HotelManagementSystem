@@ -7,8 +7,8 @@
 
 | S.No | Name                | Enrollment No. |
 | ---- | ------------------- | -------------- |
-| 1    | Aakash              | 20252651001    |
-| 2    | Sonu Jha            | 20252651056    |
+| 1    | Sonu Jha            | 202526510056    |
+| 2    | Aakash              | 20252651001    |
 | 3    | Sahil Kumar         | 20252651044    |
 | 4    | Manish Saxena       | 20252651033    |
 | 5    | Vedansh Raghuwanshi | 20252651062    |
