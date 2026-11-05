@@ -1,7 +1,7 @@
 
 # Hotel Management System
 
-**Group No: 8**
+**Group No: 24**
 
 ## Team Members
 
